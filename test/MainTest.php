@@ -2,8 +2,8 @@
 
 namespace Imglocator\Test;
 
-require_once("../vendor/autoload.php");
-require_once("../src/ImageLocator.php");
+require_once(__DIR__."/../vendor/autoload.php");
+require_once(__DIR__."/../src/ImageLocator.php");
 
 class MainTest extends \PHPUnit_Framework_TestCase {
 
