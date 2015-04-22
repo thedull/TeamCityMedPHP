@@ -1,0 +1,16 @@
+{
+  "name": "personal/imglocator",
+  "description": "Google image locator",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Gabby Tee",
+      "email": "joaqt23@gmail.com"
+    }
+  ],
+  "require" : {
+    "guzzlehttp/guzzle": "~5.0",
+    "codeception/codeception": "*"
+  }
+}
