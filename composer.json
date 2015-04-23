@@ -1,8 +1,9 @@
 {
-  "name": "personal/imglocator",
+  "name": "gabbytee/imglocator",
   "description": "Google image locator",
   "minimum-stability": "stable",
   "license": "proprietary",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Gabby Tee",
@@ -12,5 +13,8 @@
   "require" : {
     "guzzlehttp/guzzle": "~5.0",
     "codeception/codeception": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
   }
 }
